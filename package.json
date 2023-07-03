@@ -1,0 +1,35 @@
+{
+  "name": "@milya054/react-usemediaquery",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.ts",
+  "unpkg": "./dist/index.umd.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melnikova26/react-MediaQuery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melnikova26/react-MediaQuery/issues"
+  },
+  "homepage": "https://github.com/Melnikova26/react-MediaQuery#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "microbundle": "^0.15.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  }
+}
