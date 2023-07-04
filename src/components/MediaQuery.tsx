@@ -43,13 +43,11 @@ export const MediaQuery: React.FC<Partial<IMediaQueryProps>>= ({orientation , mi
     }
     
     if (typeof children === 'function'){
-        console.log(window.matchMedia(mediaQueryArray.join(' and ')))
         return <>{children(window.matchMedia(mediaQueryArray.join(' and ')).matches)}
         </>;
     }  else {
-        console.log(window.matchMedia(mediaQueryArray.join(' and ')))
         return (
-            window.matchMedia(mediaQueryArray.join(' and ')).matches ? children : null
+            <>{children}</>
         );
     }
 }
