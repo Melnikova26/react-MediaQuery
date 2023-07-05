@@ -1,6 +1,6 @@
 {
-  "name": "@milya505/react-mediaquery",
-  "version": "1.0.5",
+  "name": "@milya505/react-usemediaquery",
+  "version": "1.0.4",
   "type": "module",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
