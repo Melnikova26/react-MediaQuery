@@ -1,6 +1,6 @@
 {
   "name": "@milya505/react-usemediaquery",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "source": "src/index.ts",
   "exports": {
