@@ -1,19 +1,3 @@
-<style>
-	.links {
-		display: flex;
-		gap: 20px;
-		flex-wrap: wrap;
-	}
-  .link{
-    color: #cb3837;
-    font-size: 1.25rem;
-  
-  }
-	.link:hover {
-		color: rgba(0,0,0,.7);
-	}
-</style>
-
 # react-usemediaquery
 
 React hook and component for working with the https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList
@@ -100,13 +84,3 @@ maxHeight
 ```
 
 Props `minResolution` and `maxResolution` can be assigned a value in the format of `{number}dppx` or a simple `number`
-
-####Keywords
-
----
-
-<div class='links'>
-	<a href="https://www.npmjs.com/search?q=keywords:react" class='link'><b>react</b></a>
-	<a href="https://www.npmjs.com/search?q=keywords:hook" class='link'><b>hook</b></a>
-	<a href="https://www.npmjs.com/search?q=keywords:media" class='link'><b>media</b></a>
-</div>

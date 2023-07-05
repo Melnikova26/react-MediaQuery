@@ -1,6 +1,6 @@
 {
   "name": "@milya505/react-usemediaquery",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/Melnikova26/react-MediaQuery.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "hook",
+    "media"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
