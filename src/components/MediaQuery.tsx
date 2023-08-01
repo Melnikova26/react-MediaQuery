@@ -1,8 +1,8 @@
 import React, { ReactNode } from "react";
 interface IMediaQueryProps {
   orientation: string;
-  minResolution: `${number}dppx` | number;
-  maxResolution: `${number}dppx` | number;
+  minResolution: `${number}dppx` | number | string;
+  maxResolution: `${number}dppx` | number | string;
   minWidth: number;
   maxWidth: number;
   minHeight: number;
